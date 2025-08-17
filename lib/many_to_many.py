@@ -67,7 +67,7 @@ class Contract:
     @author.setter
     def author(self, author):
         if not isinstance(author, Author):
-            raise TypeError("author should be an instance of Author clas")
+            raise TypeError("author should be an instance of Author class")
         self._author = author
 
     @property
@@ -77,7 +77,7 @@ class Contract:
     @book.setter
     def book(self, book):
         if not isinstance(book, Book):
-            raise TypeError("book should be an instance of Book clas")
+            raise TypeError("book should be an instance of Book class")
         self._book = book
 
     @property
